@@ -1,0 +1,29 @@
+GROUP 23
+
+Task : GIF(uncompressed)  --->   24bit-BMP
+
+Contribution :
+                #IMT2020542 Sashank Reddy Budideti      : worked on GIF (mainly code + Theory)
+                #IMT2020083 Mukul Gupta                 : worked on GIF (mainly code + Theory)
+                #IMT2020547 Paras Shivlal Vekariya      : worked on BMP (code + mainly Theory)
+                #IMT2020510 Laxmi Sreenivas             : worked on GIF (mainly code + Theory)
+                #IMT2020015 Pushkar Sandip Pawar        : worked on BMP (mainly code + Theory)
+                #IMT2020090 Balaji Babasaheb Sankapal   : worked on BMP (mainly Theory + code)
+
+We all worked on the code together over zoom calls.
+Everyones contribution was equal and picking specific areas is not possible.
+
+Image details  :
+                        1)The LZW minimum code of the GIF file has to 7.
+                        2)The BMP produced may have slight distortion as the end.
+                        3)The name of the BMP file produced is "output.BMP".
+                        4)The GIF file name has to be less than 36 characters.
+                        5)GIF file needs to be in the directory
+
+After running the executable , type the GIF file name and press 'Enter'.
+
+If you get 'segmentation fault' after runnung the code then,
+1. The GIF file is not in the directory.
+2. The GIF file might not be uncompressed.
+(compressed GIF files emit indexes which are not part of root pallete codes and these codes are ignored by code)
+
